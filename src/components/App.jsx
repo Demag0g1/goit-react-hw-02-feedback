@@ -13,9 +13,9 @@ export class App extends Component {
   };
 
   updateState = nameFeedback => {
-    this.setState(oldData => {
-      let obj = { ...oldData };
-      obj[nameFeedback] = oldData[nameFeedback] + 1;
+    this.setState(prevData => {
+      let obj = { ...prevData };
+      obj[nameFeedback] = prevData[nameFeedback] + 1;
       return obj;
     });
   };
