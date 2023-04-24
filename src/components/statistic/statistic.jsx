@@ -12,16 +12,16 @@ export const Statistics = ({
       {options.map((name, i) => {
         return (
           <p key={i} className={css[name]}>
-            {name}:<span className={css.numbers}>{statistic[name]}</span>
+            {name}:<span className={css.numbers}> {statistic[name]}</span>
           </p>
         );
       })}
       <p>
-        Total: <span className={css.numbers}>{total}</span>
+        Total: <span className={css.numbers}> {total}</span>
       </p>
       <p className={css.good}>
-        Positive feedback:{' '}
-        <span className={css.numbers}>{positivePercentage()}</span>%
+        Positive feedback: {' '}
+        <span className={css.numbers}> {positivePercentage()}%</span>
       </p>
     </>
   );

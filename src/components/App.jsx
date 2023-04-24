@@ -35,7 +35,7 @@ export class App extends Component {
   render() {
     return (
       <div className={css.container}>
-        <SectionWrap title="Please Leave feedback">
+        <SectionWrap title="Please, leave your feedback">
           <FeedbackOptions
             options={Object.keys(this.state)}
             onLeavefeedback={this.updateState}
@@ -44,7 +44,7 @@ export class App extends Component {
 
         <SectionWrap title="Statistics">
           {this.countTotalFeedback() === 0 ? (
-            <Notification message="There is no feedback yet..." />
+            <Notification message="There's no feedback yet..." />
           ) : (
             <Statistics
               options={Object.keys(this.state)}

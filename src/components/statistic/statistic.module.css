@@ -1,30 +1,43 @@
 .numbers {
+  font-size: large;
   font-weight: 700;
+}
+p{
+  font-size: large;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 .good {
   text-transform: capitalize;
-  margin: 0;
-  width: 200px;
-  padding: 16px;
+  margin: 10 5px;
+  width: 180px;
+  padding: 15px;
   display: block;
-  background-color: rgba(0, 128, 0, 25%);
+  border-radius: 15px;
+  background-color: rgba(0, 128, 0, 0.665);
 }
 
 .neutral {
   text-transform: capitalize;
-  margin: 0;
-  width: 200px;
-  padding: 16px;
+  margin: 10 5px;
+  width: 180px;
+  padding: 15px;
   display: block;
-  background-color: rgba(255, 228, 196, 60%);
+  border-radius: 15px;
+  background-color: rgba(239, 232, 35, 0.936);
 }
 
 .bad {
   text-transform: capitalize;
-  margin: 0;
-  width: 200px;
-  padding: 16px;
+  margin: 10 5px;
+  width: 180px;
+  padding: 15px;
   display: block;
-  background-color: rgba(255, 0, 0, 20%);
+  border-radius: 15px;
+  background-color: rgba(224, 8, 8, 0.686);
+}
+
+span{
+  color:darkblue;
 }
